@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WSS EXAMPLE</title>
+</head>
+<body>
+<input type="text" id="pass" placeholder="Password"><br>
+<input type="text" id="file" placeholder="File Name"><br>
+<button onclick="connect()">Check</button><br><br><br>
+<div class="out">
+<h2>Output: </h2><br>
+<div id="output"></div>
+</div>
+
+<script>
+function connect() {
+output = document.getElementById("output");
+const ws = new WebSocket("wss://ff.tmhhd.cf/verify")
+
+ws.onopen = () => {
+    output.innerHTML = ""
+    pass = document.getElementById("pass").value
+    file = document.getElementById("file").value
+    file != "" ? ws.send(`${pass}|${file}`) : ws.send(`${pass}`)
+    
+};
+ws.onmessage = (msg) => {
+output.innerHTML = msg.data
+};
+};
+</script>
+</body>
+</html>
