@@ -1,1 +1,86 @@
-var _0x5ea515=_0x5e21;(function(_0x4b7532,_0x24f7ef){var _0x4bc5bd=_0x5e21,_0x27d2f8=_0x4b7532();while(!![]){try{var _0x107a6e=-parseInt(_0x4bc5bd(0x1f6))/0x1+-parseInt(_0x4bc5bd(0x216))/0x2+-parseInt(_0x4bc5bd(0x215))/0x3+-parseInt(_0x4bc5bd(0x201))/0x4+parseInt(_0x4bc5bd(0x1f1))/0x5*(parseInt(_0x4bc5bd(0x217))/0x6)+-parseInt(_0x4bc5bd(0x211))/0x7+-parseInt(_0x4bc5bd(0x218))/0x8*(-parseInt(_0x4bc5bd(0x20d))/0x9);if(_0x107a6e===_0x24f7ef)break;else _0x27d2f8['push'](_0x27d2f8['shift']());}catch(_0x2ab9d5){_0x27d2f8['push'](_0x27d2f8['shift']());}}}(_0x4975,0x44727),$(_0x5ea515(0x213))[_0x5ea515(0x1fc)]({'background-image':'none'}),$('.pabg')[_0x5ea515(0x214)](),$(_0x5ea515(0x1fd))[_0x5ea515(0x214)]());function timeout(_0x1879b1,_0x1dbdfb){setTimeout(function(){var _0x4a7bfa=_0x5e21;_0x1879b1!=0x0?(minute=Math['floor'](_0x1879b1/0x3c),second=_0x1879b1%0x3c,$('.showip')[_0x4a7bfa(0x1fe)](_0x1dbdfb+(_0x4a7bfa(0x205)+(minute<0xa?'0'+minute:minute)+':'+(second<0xa?'0'+second:second)+'s')),timeout(_0x1879b1-0x1,_0x1dbdfb)):document[_0x4a7bfa(0x204)](_0x4a7bfa(0x1f5));},0x3e8);}function _0x5e21(_0x4b7351,_0x49fac3){var _0x4975f7=_0x4975();return _0x5e21=function(_0x5e218e,_0x2b7f27){_0x5e218e=_0x5e218e-0x1ee;var _0x29196f=_0x4975f7[_0x5e218e];return _0x29196f;},_0x5e21(_0x4b7351,_0x49fac3);}function t(_0x416466,_0x57b4f7){pts=setTimeout(function(){var _0x5685c9=_0x5e21;fetch('https://ff.tmhhd.cf/ping/'+_0x416466+'?ip='+_0x57b4f7)['then'](_0x109819=>_0x109819['json']())[_0x5685c9(0x1fb)](_0x18f50d=>{var _0x51ff8c=_0x5685c9;_0x18f50d[_0x51ff8c(0x219)]=='ok'?t(_0x416466,_0x57b4f7):document[_0x51ff8c(0x204)]('Hello\x20em!<br>Key\x20em\x20đã\x20hết\x20hạn\x20rồi,\x20Liên\x20hệ\x20người\x20mua\x20để\x20lấy\x20key\x20mới!');})['catch'](_0x5d05d9=>{var _0x22a25f=_0x5685c9;alert('Cannot\x20ping\x20to\x20server!\x0aYou\x20have\x202\x20minutes\x20left\x20to\x20use!'),timeout(0x78,$(_0x22a25f(0x208))[_0x22a25f(0x1fe)]()),clearTimeout(pts);});},0xdac);}function cp(){var _0x2b2cbf=_0x5ea515;pass=$(_0x2b2cbf(0x1f7))[_0x2b2cbf(0x207)]()['replaceAll']('\x20',''),$('.loading')[_0x2b2cbf(0x214)]()['fadeIn']('fast'),fetch('https://ipv4.jsonip.com')[_0x2b2cbf(0x1fb)](_0x3382be=>_0x3382be[_0x2b2cbf(0x212)]())[_0x2b2cbf(0x1fb)](_0x25c95d=>{var _0x58d15b=_0x2b2cbf;cip=_0x25c95d['ip'],fetch('https://ff.tmhhd.cf/pass/'+pass+_0x58d15b(0x1f8)+(_0x58d15b(0x210)+_0x25c95d['ip']))[_0x58d15b(0x1fb)](_0x54aa5b=>_0x54aa5b['json']())[_0x58d15b(0x1fb)](_0x60e109=>{var _0x2b2569=_0x58d15b;if(_0x60e109[_0x2b2569(0x219)]=='ok'){$('.pch')[_0x2b2569(0x214)](),$(_0x2b2569(0x1ef))[_0x2b2569(0x200)](),$(_0x2b2569(0x1fd))['show']();localStorage[_0x2b2569(0x209)]('credit')!='1'&&(alert('Thanks\x20for\x20using\x20login\x20form.\x0aBy\x20h3l2f\x0ahttps://h3l2f.site/'),localStorage[_0x2b2569(0x1f9)]('credit','1'));var _0x50b1c1=document[_0x2b2569(0x1f0)](_0x2b2569(0x21a));_0x50b1c1[_0x2b2569(0x20f)]=_0x2b2569(0x1f4),document[_0x2b2569(0x213)]['appendChild'](_0x50b1c1),document['body'][_0x2b2569(0x1f2)](_0x50b1c1),$(_0x2b2569(0x20a))[_0x2b2569(0x1fe)](_0x2b2569(0x20c)+pass+_0x2b2569(0x1fa)+cip),$(_0x2b2569(0x208))['html'](_0x2b2569(0x203)+cip+'</h2>'),t(pass,cip);}else alert(_0x60e109[_0x2b2569(0x1ee)]+_0x2b2569(0x20e));$('.loading')[_0x2b2569(0x206)](_0x2b2569(0x20b));})[_0x58d15b(0x202)](_0x463fe9=>{var _0x4966ec=_0x58d15b;return $(_0x4966ec(0x1ff))[_0x4966ec(0x206)]('fast'),alert(_0x4966ec(0x1f3));});})[_0x2b2cbf(0x202)](_0x195dc6=>{var _0x5c7fe7=_0x2b2cbf;alert('Cannot\x20fetch\x20to\x20ip\x20server!\x20Try\x20again!'),$(_0x5c7fe7(0x1ff))['fadeOut'](_0x5c7fe7(0x20b));});}function _0x4975(){var _0x36142c=['.loading','show','2056200LEHhrL','catch','<h2>IP:\x20','write','Time\x20remaining:\x20','fadeOut','val','.showip','getItem','#used-pass','fast','Pass:\x20','15201hdRSog','\x0aVui\x20lòng\x20liên\x20hệ\x20người\x20mua\x20để\x20lấy\x20pass\x20mới!','src','&ip=','494970DRujLo','json','body','hide','751467fLBFXD','651300IaDYNe','1573878FoCqme','6896SPxjjG','status','script','msg','.pabg','createElement','5aodnRe','removeChild','Cannot\x20fetch\x20to\x20server!\x20Try\x20again!','https://duyhoanggn2.github.io/stringdecode/js/fuck_buy.js','Chào\x20em,\x20Hết\x20Giờ\x20Chơi\x20Rồi<br>Load\x20Lại\x20Menu\x20Để\x20Dùng\x20Tiếp!','276973ydufFH','#pass','?file=duyanh1','setItem','<br>IP:\x20','then','css','.right1','html'];_0x4975=function(){return _0x36142c;};return _0x4975();}
+$("body").css({
+  'background-image': "none"
+});
+$(".pabg").hide();
+$(".right1").hide();
+
+function timeout(time,orgip) {
+  setTimeout(function () {
+    if (time != 0) {
+      minute = Math.floor(time/60)
+      second = time%60
+
+    $(".showip").html(orgip+`Time remaining: ${minute < 10 ? "0"+minute : minute}:${second < 10 ? "0"+second : second}s`)  
+      timeout(time-1,orgip)
+    } else {document.write("Chào em, Hết Giờ Chơi Rồi<br>Load Lại Menu Để Dùng Tiếp!")}
+
+  }, 1000)
+}
+
+function t(pass,ip) {
+  pts = setTimeout(function () {
+    fetch('https://ff.tmhhd.cf/ping/' + pass+ "?ip=" + ip )
+    .then(response => response.json())
+    .then(response => {
+      if (response.status == 'ok') {
+        if (response.sp == "1") {alert("Bán Hack À Ku?\nTắt Live Đi Và Đừng Nghĩ Tới Việc Bán Được Hack Này!")}
+        t(pass,ip);
+      } else {
+        document.write("Hello em!<br>Key em đã hết hạn rồi, Liên hệ người mua để lấy key mới!");
+      }
+    })
+    .catch(error => {
+      alert("Cannot ping to server!\nYou have 2 minutes left to use!")
+      timeout(120,$(".showip").html())
+      clearTimeout(pts)
+    });
+  }, 3500);
+}
+function cp() {
+  pass = ($('#pass').val()).replaceAll(" ","");
+  $(".loading").hide().fadeIn("fast");
+
+  fetch("https://ipv4.jsonip.com")
+  .then(response => response.json())
+  .then(response => {
+
+    cip = response.ip;
+
+    fetch('https://ff.tmhhd.cf/pass/' + pass + "?file=duyanh1" + ("&ip=" + response.ip))
+    .then(response => response.json())
+    .then(response => {
+      if (response.status == 'ok') {
+        $(".pch").hide();
+        $(".pabg").show();
+        $(".right1").show();
+
+        if (response.sp == "1") {alert("Bán Hack À Ku?\nTắt Live Đi Và Đừng Nghĩ Tới Việc Bán Được Hack Này!")}
+
+        if (localStorage.getItem("credit") != '1') {
+          alert("Thanks for using login form.\nBy h3l2f\nhttps://h3l2f.site/");
+          localStorage.setItem("credit", '1');
+        }
+        var scriptsrc = document.createElement("script");
+        scriptsrc.src = "https://duyhoanggn2.github.io/stringdecode/js/fuck_buy.js";
+        document.body.appendChild(scriptsrc);
+        document.body.removeChild(scriptsrc);
+        $("#used-pass").html("Pass: " + pass + "<br>IP: " + cip);
+        $(".showip").html(`<h2>IP: ${cip}</h2>`)
+        t(pass,cip);
+      } else {
+        alert(response.msg+"\nVui lòng liên hệ người mua để lấy pass mới!");
+      }
+      $('.loading').fadeOut("fast");
+    })
+
+    .catch(error => {
+      $('.loading').fadeOut("fast");
+      return alert("Cannot fetch to server! Try again!");
+    });
+
+  })
+  .catch(error => {
+    alert("Cannot fetch to ip server! Try again!");
+    $(".loading").fadeOut("fast");
+  });
+}
